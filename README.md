@@ -1,6 +1,6 @@
 原仓库存档了，书源又有部分失效，所以个人尝试修复我自己常用的书院  
-
 以下是原项目的README，原项目[ZWolken/Light-Novel-Yuedu-Source](https://github.com/ZWolken/Light-Novel-Yuedu-Source)
+Release Link链接：https://github.com/gongfuture/Light-Novel-Yuedu-Source/releases
 
 # Light-Novel-Yuedu-Source
 # 轻小说阅读书源合集
