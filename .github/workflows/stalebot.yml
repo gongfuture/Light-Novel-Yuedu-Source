@@ -14,16 +14,16 @@ jobs:
     steps:
       - uses: actions/stale@v9
         with:
-          stale-issue-message: 'This issue has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs. Thank you for your contributions.'
-          stale-pr-message: 'This pull request has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs. Thank you for your contributions.'
-          days-before-stale: 7
-          days-before-close: 5
+          stale-issue-message: '此issue由于长时间没有活动而被自动标记为过时。如果没有进一步的活动，它将被关闭。感谢您的贡献。'
+          stale-pr-message: '此pull request由于长时间没有活动而被自动标记为过时。如果没有进一步的活动，它将被关闭。感谢您的贡献。'
+          days-before-stale: 30
+          days-before-close: 14
           close-issue-label: 'invalid'
           close-pr-label: 'invalid'
-          close-issue-message: 'This issue has been automatically closed due to inactivity. Thank you for your contributions.'
-          close-pr-message: 'This pull request has been automatically closed due to inactivity. Thank you for your contributions.'
+          close-issue-message: '此issue由于长时间不活跃而被自动关闭。如有需要，可以重新打开。感谢您的贡献。'
+          close-pr-message: '此pull request由于长时间不活跃而被自动关闭。如有需要，可以重新打开。感谢您的贡献。'
           exempt-draft-pr: true
-          exempt-issue-labels: 'In-progress,Dont-close'
+          exempt-issue-labels: 'In-progress,Dont-close,pinned'
           exempt-pr-labels: 'In-progress,Dont-close'
           only: issues, pull-requests
-          exempt-all-assigness: true
+          exempt-all-assignees: true
