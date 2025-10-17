@@ -1,3 +1,16 @@
+"""
+书源合并脚本
+
+此脚本用于将分散在不同目录中的书源JSON文件合并为统一的书源文件。
+主要功能：
+1. 遍历BookSource目录下的各个子目录
+2. 为每个书源添加对应的分组标识
+3. 生成分类的书源文件（日轻、国轻、日语原版）
+4. 生成包含所有书源的合集文件
+
+输出文件保存在 src/build/ 目录下
+"""
+
 import json
 import pathlib
 from datetime import datetime

@@ -10,7 +10,7 @@ body:
       label: 检查清单
       description: 如果你的问题是重复的，将不会被回复并直接关闭。
       options:
-        - label: 我已经阅读了[Q&A清单](https://github.com/ZWolken/Light-Novel-Yuedu-Source/blob/main/docs/questions.md)，但依然没能得到解答。
+        - label: 我已经阅读了[Q&A清单](https://github.com/gongfuture/Light-Novel-Yuedu-Source/blob/main/docs/questions.md)，但依然没能得到解答。
           required: true
         - label: 我的问题没有被其他人提及过，且不是重复的。
           required: true
